@@ -18,7 +18,7 @@
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res-auto"
-    android:title="@string/about_device_info"
+    android:title="@string/about_settings"
     settings:keywords="@string/keywords_android_version">
 
     <!-- Spark info -->
@@ -35,7 +35,7 @@
         android:icon="@drawable/ic_spark_build_status"
         settings:enableCopying="true"
         android:selectable="true"/>
-        
+
     <!-- device_title -->
     <Preference
         android:key="spark_device"
@@ -44,7 +44,7 @@
         android:icon="@drawable/ic_build_number"
         settings:enableCopying="true"
         android:selectable="true"/>
-        
+
     <!-- Spark Codename -->
     <Preference
         android:key="os_firmware_version"
@@ -73,7 +73,7 @@
         settings:layout="@layout/arc_card_about_middle"
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.SecurityPatchLevelPreferenceController"/>
-        
+
     <!-- Build date -->
     <Preference
         android:key="spark_build_version"
