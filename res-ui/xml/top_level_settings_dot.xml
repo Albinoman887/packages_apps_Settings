@@ -32,7 +32,7 @@
     <com.android.settings.widget.HomepagePreference
         android:key="top_level_fireworks"
         android:title="@string/fireworks_title"
-        android:summary="@string/fireworks_summary"
+        android:summary="@string/build_tweaks_summary_title"
         android:order="-204"
         settings:layout="@layout/dot_dashboard_preference_bottom"
         android:fragment="com.spark.settings.SparkSettings"
