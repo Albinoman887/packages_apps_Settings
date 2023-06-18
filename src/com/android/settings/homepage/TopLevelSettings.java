@@ -99,12 +99,14 @@ public class TopLevelSettings extends DashboardFragment implements SplitLayoutLi
                return R.xml.top_level_settings_arc;
            case 3:
                return R.xml.top_level_settings_aosp;
-	   case 4:
+	       case 4:
                return R.xml.top_level_settings_mt;
-	   case 5:
+	       case 5:
                return R.xml.top_level_settings_card;
-        case 6:
+           case 6:
                return R.xml.top_level_settings_dot;
+           case 7:
+               return R.xml.top_level_settings_nad;
            default:
                return R.xml.top_level_settings;
         }
@@ -284,10 +286,10 @@ public class TopLevelSettings extends DashboardFragment implements SplitLayoutLi
                 preference.setLayoutResource(R.layout.top_level_preference_bottom);
             }
             break;
-       case 1:
+        case 1:
 	    if (key.equals("top_level_usercard")){
 	        preference.setLayoutResource(R.layout.usercard_round);
-	    } else if (key.equals("top_level_divider_one")){
+	        } else if (key.equals("top_level_divider_one")){
                 // nothing to do here
             } else if (key.equals("top_level_network")
             	|| key.equals("top_level_fireworks")
@@ -322,7 +324,7 @@ public class TopLevelSettings extends DashboardFragment implements SplitLayoutLi
                 preference.setLayoutResource(R.layout.top_level_preference_oos_bottom);
             }
             break;
-	case 2:
+	    case 2:
 	    if (key.equals("top_level_usercard")){
 	        preference.setLayoutResource(R.layout.usercard_transparent);
             } else if (key.equals("dashboard_tile_pref_com.google.android.apps.wellbeing.settings.TopLevelSettingsActivity")
@@ -341,7 +343,7 @@ public class TopLevelSettings extends DashboardFragment implements SplitLayoutLi
                 preference.setLayoutResource(R.layout.top_level_preference_arc);
             }
             break;
-	case 3:
+	    case 3:
 	    if (key.equals("top_level_usercard")){
 	        preference.setLayoutResource(R.layout.usercard_transparent);
             } else if (key.equals("top_level_about_device")){
@@ -389,7 +391,7 @@ public class TopLevelSettings extends DashboardFragment implements SplitLayoutLi
                 preference.setLayoutResource(R.layout.top_level_preference_mt_bottom);
             }
             break;
-	case 5:
+	    case 5:
 	    if (key.equals("top_level_usercard")){
 	        preference.setLayoutResource(R.layout.usercard_round_circle);
             } else if (key.equals("top_level_network")
@@ -425,57 +427,60 @@ public class TopLevelSettings extends DashboardFragment implements SplitLayoutLi
                 preference.setLayoutResource(R.layout.top_level_preference_bottom_card);
             }
             break;
-    case 6:
+        case 6:
         if (key.equals("top_level_about_device")) {
-                preference.setLayoutResource(R.layout.dot_dashboard_preference_phone);
-                } else if (key.equals("top_level_fireworks")) {
-                    preference.setLayoutResource(R.layout.dot_dashboard_preference_bottom);
-                } else if (key.equals("top_level_network")) {
-                    preference.setLayoutResource(R.layout.dot_dashboard_preference_top);
-                } else if (key.equals("top_level_connected_devices")) {
-                    preference.setLayoutResource(R.layout.dot_dashboard_preference_bottom);
-                } else if (key.equals("top_level_display")) {
-                    preference.setLayoutResource(R.layout.dot_dashboard_preference_top);
-                } else if (key.equals("top_level_wallpaper")) {
-                    preference.setLayoutResource(R.layout.dot_dashboard_preference_middle);
-                } else if (key.equals("top_level_battery")) {
-                    preference.setLayoutResource(R.layout.dot_dashboard_preference_middle);
-                } else if (key.equals("top_level_sound")) {
-                    preference.setLayoutResource(R.layout.dot_dashboard_preference_middle);
-                } else if (key.equals("top_level_notification")) {
-                    preference.setLayoutResource(R.layout.dot_dashboard_preference_middle);
-                } else if (key.equals("top_level_apps")) {
-                    preference.setLayoutResource(R.layout.dot_dashboard_preference_bottom);
-                } else if (key.equals("top_level_privacy")) {
-                    preference.setLayoutResource(R.layout.dot_dashboard_preference_top);
-                } else if (key.equals("top_level_security")) {
-                    preference.setLayoutResource(R.layout.dot_dashboard_preference_middle);
-                } else if (key.equals("top_level_location")) {
-                    preference.setLayoutResource(R.layout.dot_dashboard_preference_middle);
-                } else if (key.equals("top_level_accounts")) {
-                    preference.setLayoutResource(R.layout.dot_dashboard_preference_bottom);
-                } else if (key.equals("top_level_accessibility")) {
-                    preference.setLayoutResource(R.layout.dot_dashboard_preference_top);
-                } else if (key.equals("top_level_storage")) {
-                    preference.setLayoutResource(R.layout.dot_dashboard_preference_middle);
-                } else if (key.equals("top_level_support")) {
-                    preference.setLayoutResource(R.layout.dot_dashboard_preference_middle);
-                } else if (key.equals("top_level_system")) {
-                    preference.setLayoutResource(R.layout.dot_dashboard_preference_bottom);
-                } else if (key.equals("dashboard_tile_pref_com.google.android.apps.wellbeing.settings.TopLevelSettingsActivity")) {
-                    preference.setLayoutResource(R.layout.dot_dashboard_preference_middle);
-                } else if (key.equals("dashboard_tile_pref_com.google.android.gms.app.settings.GoogleSettingsIALink")) {
-                    preference.setLayoutResource(R.layout.dot_dashboard_preference_middle);
-                } else if (key.equals("top_level_google")) {
-                    preference.setLayoutResource(R.layout.dot_dashboard_preference_middle);
-                } else if (key.equals("dashboard_tile_pref_com.google.android.apps.wellbeing.home.TopLevelSettingsActivity")) {
-                    preference.setLayoutResource(R.layout.dot_dashboard_preference_middle);
-                } else if (key.equals("top_level_wellbeing")) {
-                    preference.setLayoutResource(R.layout.dot_dashboard_preference_middle);
-                } else {
-                    preference.setLayoutResource(R.layout.dot_dashboard_preference_bottom);
-                }
-                break;
+            preference.setLayoutResource(R.layout.dot_dashboard_preference_phone);
+            } else if (key.equals("top_level_fireworks")) {
+                preference.setLayoutResource(R.layout.dot_dashboard_preference_bottom);
+            } else if (key.equals("top_level_network")) {
+                preference.setLayoutResource(R.layout.dot_dashboard_preference_top);
+            } else if (key.equals("top_level_connected_devices")) {
+                preference.setLayoutResource(R.layout.dot_dashboard_preference_bottom);
+            } else if (key.equals("top_level_display")) {
+                preference.setLayoutResource(R.layout.dot_dashboard_preference_top);
+            } else if (key.equals("top_level_wallpaper")) {
+                preference.setLayoutResource(R.layout.dot_dashboard_preference_middle);
+            } else if (key.equals("top_level_battery")) {
+                preference.setLayoutResource(R.layout.dot_dashboard_preference_middle);
+            } else if (key.equals("top_level_sound")) {
+                preference.setLayoutResource(R.layout.dot_dashboard_preference_middle);
+            } else if (key.equals("top_level_notification")) {
+                preference.setLayoutResource(R.layout.dot_dashboard_preference_middle);
+            } else if (key.equals("top_level_apps")) {
+                preference.setLayoutResource(R.layout.dot_dashboard_preference_bottom);
+            } else if (key.equals("top_level_privacy")) {
+                preference.setLayoutResource(R.layout.dot_dashboard_preference_top);
+            } else if (key.equals("top_level_security")) {
+                preference.setLayoutResource(R.layout.dot_dashboard_preference_middle);
+            } else if (key.equals("top_level_location")) {
+                preference.setLayoutResource(R.layout.dot_dashboard_preference_middle);
+            } else if (key.equals("top_level_accounts")) {
+                preference.setLayoutResource(R.layout.dot_dashboard_preference_bottom);
+            } else if (key.equals("top_level_accessibility")) {
+                preference.setLayoutResource(R.layout.dot_dashboard_preference_top);
+            } else if (key.equals("top_level_storage")) {
+                preference.setLayoutResource(R.layout.dot_dashboard_preference_middle);
+            } else if (key.equals("top_level_support")) {
+                preference.setLayoutResource(R.layout.dot_dashboard_preference_middle);
+            } else if (key.equals("top_level_system")) {
+                preference.setLayoutResource(R.layout.dot_dashboard_preference_bottom);
+            } else if (key.equals("dashboard_tile_pref_com.google.android.apps.wellbeing.settings.TopLevelSettingsActivity")) {
+                preference.setLayoutResource(R.layout.dot_dashboard_preference_middle);
+            } else if (key.equals("dashboard_tile_pref_com.google.android.gms.app.settings.GoogleSettingsIALink")) {
+                preference.setLayoutResource(R.layout.dot_dashboard_preference_middle);
+            } else if (key.equals("top_level_google")) {
+                preference.setLayoutResource(R.layout.dot_dashboard_preference_middle);
+            } else if (key.equals("dashboard_tile_pref_com.google.android.apps.wellbeing.home.TopLevelSettingsActivity")) {
+                preference.setLayoutResource(R.layout.dot_dashboard_preference_middle);
+            } else if (key.equals("top_level_wellbeing")) {
+                preference.setLayoutResource(R.layout.dot_dashboard_preference_middle);
+            } else {
+                preference.setLayoutResource(R.layout.dot_dashboard_preference_bottom);
+            }
+            break;
+        case 7:
+            preference.setLayoutResource(R.layout.nad_dashboard_preference);
+            break;
         default:
             break;
         }
