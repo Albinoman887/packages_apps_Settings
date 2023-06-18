@@ -228,7 +228,7 @@ public class TopLevelSettings extends DashboardFragment implements SplitLayoutLi
         int tintColor = Utils.getHomepageIconColor(getContext());
         iteratePreferences(preference -> {
             Drawable icon = preference.getIcon();
-            if (mDashBoardStyle == 3 || mDashBoardStyle == 5 || mDashBoardStyle == 6) {
+            if (mDashBoardStyle == 3 || mDashBoardStyle == 5 || mDashBoardStyle == 6 || mDashBoardStyle == 7) {
               if (icon != null) {
                   icon.setTint(tintColor);
               }
