@@ -60,7 +60,7 @@
                 android:layout_weight="1"
                 android:ellipsize="marquee"
                 android:singleLine="true"
-                android:text="@string/alpha_settings_title"
+                android:text="@string/fireworks_title"
                 android:textAppearance="?android:attr/textAppearanceListItem"
                 android:textDirection="locale" />
             <TextView
@@ -70,7 +70,7 @@
                 android:layout_weight="1"
                 android:ellipsize="marquee"
                 android:singleLine="true"
-                android:text="@string/alpha_settings_summary"
+                android:text="@string/build_tweaks_summary_title"
                 style="@style/PreferenceSummaryTextStyle"/>
         </LinearLayout>
     </LinearLayout>
