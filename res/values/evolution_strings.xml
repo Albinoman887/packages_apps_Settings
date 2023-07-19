@@ -12,6 +12,10 @@
     <string name="soc_model">SoC Model</string>
     <string name="total_ram">Total RAM</string>
 
+        <!--  Sigma settings -->
+    <string name="alpha_settings_title">Evolover</string>
+    <string name="alpha_settings_summary">Everything including the kitchen sink!</string>
+
     <!-- About device screen, Evolution X -->
     <string name="evolution_x_version">Evolution X version</string>
 
@@ -35,8 +39,8 @@
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Google Play</string>
 
-    <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] --> 
-    <string name="duration_less_than_one_minute">Less than 1 Minute</string> 
+    <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
+    <string name="duration_less_than_one_minute">Less than 1 Minute</string>
 
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
     <string name="screen_time_summary_usage_today">%1$s today</string>
