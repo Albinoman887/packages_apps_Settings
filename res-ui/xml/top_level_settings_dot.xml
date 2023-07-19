@@ -31,8 +31,8 @@
 
     <com.android.settings.widget.HomepagePreference
         android:key="top_level_evolver"
-        android:title="@string/evolver_dashboard_title"
-        android:summary="@string/evolver_dashboard_summary"
+        android:title="@string/alpha_settings_title"
+        android:summary="@string/alpha_settings_summary"
         android:order="-204"
         settings:layout="@layout/dot_dashboard_preference_bottom"
         android:fragment="com.evolution.settings.EvolutionSettings"
