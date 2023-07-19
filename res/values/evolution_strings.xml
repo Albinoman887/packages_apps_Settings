@@ -12,6 +12,10 @@
     <string name="soc_model">SoC Model</string>
     <string name="total_ram">Total RAM</string>
 
+        <!--  Sigma settings -->
+    <string name="alpha_settings_title">Evolover</string>
+    <string name="alpha_settings_summary">Everything including the kitchen sink!</string>
+
     <!-- About device screen, Evolution X -->
     <string name="evolution_x_version">Evolution X version</string>
 
