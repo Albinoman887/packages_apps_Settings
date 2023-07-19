@@ -30,13 +30,13 @@
         settings:controller="com.android.settings.deviceinfo.aboutphone.TopLevelAboutDevicePreferenceController"/>
 
     <com.android.settings.widget.HomepagePreference
-        android:key="top_level_alpha_settings"
-        android:title="@string/alpha_settings_title"
-        android:summary="@string/alpha_settings_summary"
+        android:key="top_level_evolver"
+        android:title="@string/evolver_dashboard_title"
+        android:summary="@string/evolver_dashboard_summary"
         android:order="-204"
         settings:layout="@layout/dot_dashboard_preference_bottom"
-        android:fragment="com.alpha.settings.AlphaSettings"
-        settings:controller="com.alpha.settings.TopLevelAlphaEntryPreferenceController" />
+        android:fragment="com.evolution.settings.EvolutionSettings"
+        settings:controller="com.evolution.settings.TopLevelEvolutionSettingsPreferenceController"/>
 
     <com.android.settings.widget.HomepagePreference
         android:key="top_level_network"
@@ -64,7 +64,7 @@
         android:fragment="com.android.settings.DisplaySettings"
         settings:controller="com.android.settings.display.TopLevelDisplayPreferenceController"
         settings:layout="@layout/dot_dashboard_preference_top"/>
-    
+
     <com.android.settingslib.RestrictedTopLevelPreference
         android:key="top_level_wallpaper"
         android:order="-109"
@@ -139,9 +139,9 @@
         android:summary="@string/summary_placeholder"
         android:title="@string/account_dashboard_title"
         settings:layout="@layout/dot_dashboard_preference_bottom"
-        settings:controller="com.android.settings.accounts.TopLevelAccountEntryPreferenceController" 
+        settings:controller="com.android.settings.accounts.TopLevelAccountEntryPreferenceController"
         android:fragment="com.android.settings.accounts.AccountDashboardFragment"/>
-    
+
     <com.android.settings.widget.HomepagePreference
         android:key="top_level_accessibility"
         android:order="-20"
