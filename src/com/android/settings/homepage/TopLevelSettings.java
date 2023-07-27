@@ -266,7 +266,7 @@ public class TopLevelSettings extends DashboardFragment implements SplitLayoutLi
                     key.equals("top_level_apps")
                         || key.equals("top_level_storage")
                         || key.equals("top_level_system")
-                        || key.equals("top_level_evolver")
+                        || key.equals("top_level_sigma")
                         || key.equals("top_level_connected_devices")
                 ) {
                     preference.setLayoutResource(R.layout.dot_dashboard_preference_bottom);
@@ -279,36 +279,35 @@ public class TopLevelSettings extends DashboardFragment implements SplitLayoutLi
                     preference.setLayoutResource(R.layout.dot_dashboard_preference_phone);
                 } else if (
                     key.equals("top_level_connected_devices")
-                    || key.equals("top_level_notification")
                     || key.equals("top_level_apps")
-                    || key.equals("top_level_location")
                     || key.equals("top_level_pixelparts")
                     || key.equals("top_level_accounts")
-                    || key.equals("top_level_storage")
                     || key.equals("top_level_support")
-                    || key.equals("top_level_safety_center")
-                    || key.equals("top_level_emergency")
                     || key.equals("top_level_google")
+                    || key.equals("top_level_sound")
                     || key.equals("dashboard_tile_pref_com.google.android.apps.wellbeing.home.TopLevelSettingsActivity")
                     || key.equals("dashboard_tile_pref_com.google.android.gms.app.settings.GoogleSettingsIALink")
                     || key.equals("top_level_wellbeing")
                     || key.equals("top_level_wellbeing")
                     || key.equals("top_level_connected_devices")
                     || key.equals("top_level_connected_devices")
+                    || key.equals("top_level_display")
+                    || key.equals("top_level_security")
+                    || key.equals("top_level_privacy")
                     ) {
                     preference.setLayoutResource(R.layout.dot_dashboard_preference_middle);
                 }
                  else if (
-                    key.equals("top_level_display")
-                    || key.equals("top_level_privacy")
-                    || key.equals("top_level_accessibility")
+                    key.equals("top_level_accessibility")
+                    || key.equals("top_level_storage")
+                    || key.equals("top_level_emergency")
                 ) {
                     preference.setLayoutResource(R.layout.dot_dashboard_preference_top);
                 } else if (
                     key.equals("top_level_wallpaper")
-                    || key.equals("top_level_sound")
-                    || key.equals("top_level_security")
+                    || key.equals("top_level_location")
                     || key.equals("top_level_system")
+                    || key.equals("top_level_notification")
                 ) {
                     preference.setLayoutResource(R.layout.dot_dashboard_preference_bottom);
                 } 
