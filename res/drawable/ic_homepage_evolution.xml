@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-    Copyright (C) 2019-2021 The Evolution X Project
+    Copyright (C) 2019-2021 The Sigma Project
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -20,7 +20,7 @@
         <com.android.settingslib.widget.AdaptiveIconShapeDrawable
             android:width="@dimen/dashboard_tile_image_size"
             android:height="@dimen/dashboard_tile_image_size"
-            android:color="@color/homepage_evolution_background" />
+            android:color="@color/homepage_sigma_background" />
     </item>
 
     <item

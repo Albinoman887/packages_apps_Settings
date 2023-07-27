@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2019-2023 Sigma
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Sigma Toolbox -->
+    <string name="evolver_dashboard_title">Evolução</string>
+    <string name="evolver_dashboard_summary">Bem-vindo ao início da Evolução</string>
+    <!-- Hardware info -->
+    <string name="soc_model">Modelo do SoC</string>
+    <string name="total_ram">Total de RAM</string>
+    <!-- About device screen, Sigma -->
+    <string name="sigma_version">Versão da Sigma</string>
+    <!-- About device screen, Build date -->
+    <string name="build_date">Data da compilação</string>
+    <!-- About device screen, build maintainer -->
+    <string name="build_maintainer">Mantenedor</string>
+    <!-- SELinux Status -->
+    <string name="selinux_status">Status do SELinux</string>
+    <string name="selinux_status_disabled">Desativado</string>
+    <string name="selinux_status_permissive">Permissivo</string>
+    <string name="selinux_status_enforcing">Impondo</string>
+    <!-- Notification log -->
+    <string name="notification_log_summary">Mostrar histórico de notificações</string>
+    <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Google Play</string>
+    <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
+    <string name="duration_less_than_one_minute">Menos de 1 minuto</string>
+    <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
+    <string name="screen_time_summary_usage_today">%1$s hoje</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="swipe_to_screenshot_gesture_title">Deslize para capturar a tela</string>
+    <string name="swipe_to_screenshot_gesture_summary">Deslize três dedos para tirar uma captura de tela</string>
+    <!-- Refresh rate -->
+    <string name="min_refresh_rate_title">Taxa de atualização mínima</string>
+    <string name="max_refresh_rate_title">Taxa de atualização máxima</string>
+    <string name="low_power_refresh_rate_title_custom">Taxa de atualização para poupar energia</string>
+    <!-- FastCharge feature -->
+    <string name="fast_charging_title">Carregamento rápido</string>
+    <string name="fast_charging_summary">Desative para reduzir o calor produzido pelo dispositivo durante o carregamento ou para estender a vida útil da bateria</string>
+    <!-- Adaptive Playback -->
+    <string name="adaptive_playback_screen_title">Pausa inteligente</string>
+    <string name="adaptive_playback_main_switch_title">Usar pausa inteligente</string>
+    <string name="adaptive_playback_disabled_summary">Desativado</string>
+    <string name="adaptive_playback_intro_text">Pausa automaticamente a mídia quando o volume é silenciado e retoma automaticamente quando o volume é restaurado dentro do tempo definido.</string>
+    <string name="adaptive_playback_timeout_title">Usar um tempo limite de</string>
+    <string name="adaptive_playback_timeout_none">Sem tempo limite</string>
+    <string name="adaptive_playback_timeout_none_summary">Ativado (sem limite de tempo)</string>
+    <string name="adaptive_playback_timeout_30_secs">30 segundos</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">Ativado (30 segundos)</string>
+    <string name="adaptive_playback_timeout_1_min">1 minuto</string>
+    <string name="adaptive_playback_timeout_1_min_summary">Ativado (1 minuto)</string>
+    <string name="adaptive_playback_timeout_2_min">2 minutos</string>
+    <string name="adaptive_playback_timeout_2_min_summary">Ativado (2 minutos)</string>
+    <string name="adaptive_playback_timeout_5_min">5 minutos</string>
+    <string name="adaptive_playback_timeout_5_min_summary">Ativado (5 minutos)</string>
+    <string name="adaptive_playback_timeout_10_min">10 minutos</string>
+    <string name="adaptive_playback_timeout_10_min_summary">Ativado (10 minutos)</string>
+    <!-- PIN scramble -->
+    <string name="unlock_scramble_pin_layout_title">Embaralhar layout</string>
+    <string name="unlock_scramble_pin_layout_summary">Embaralhar PIN ao desbloquear o dispositivo</string>
+    <!-- Lock screen pattern size -->
+    <string name="lock_settings_picker_pattern_size_message">Escolha um tamanho para o padrão</string>
+    <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+    <string name="lockpattern_settings_enable_error_path_title">Mostrar erro do padrão</string>
+    <!-- Whether the dots will be drawn when using the lock screen pattern -->
+    <string name="lockpattern_settings_enable_dots_title">Mostrar pontos do padrão</string>
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Desbloqueio rápido</string>
+    <string name="unlock_quick_unlock_control_summary">Desbloquear automaticamente ao inserir o PIN ou senha corretamente</string>
+    <!-- Fullscreen gestures -->
+    <string name="navbar_category">Barra de navegação</string>
+    <!-- Gesture navbar length -->
+    <string name="gesture_navbar_length_title">Comprimento da barra gestos</string>
+    <string name="hide_label">Oculto</string>
+    <string name="long_label">Longo</string>
+    <!-- Wake on plug -->
+    <string name="wake_when_plugged_or_unplugged_title">Acordar ao conectar</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Ativar a tela quando conectar ou desconectar o carregador</string>
+    <!-- General -->
+    <string name="copied_to_clipboard">Copiado para a área de transferência</string>
+    <string name="longpress_to_clipboard">Pressione e segure para copiar</string>
+    <!-- Smart charging -->
+    <string name="smart_charging_title">Carregamento inteligente</string>
+    <string name="smart_charging_summary">Definir o nível máximo de carregamento</string>
+    <string name="smart_charging_main_switch_title">Usar carregamento inteligente</string>
+    <string name="smart_charging_level_title">Nível para interromper o carregamento</string>
+    <string name="smart_charging_resume_level_title">Nível para resumir o carregamento</string>
+    <string name="smart_charging_reset_stats_title">Redefinir estatísticas da bateria</string>
+    <string name="smart_charging_reset_stats_summary">Redefinir as estatísticas da bateria após atingir o nível de carga definido pelo usuário</string>
+    <string name="smart_charging_intro_text">O carregamento inteligente permite que você defina o nível máximo de carga para prolongar a vida útil da sua bateria</string>
+    <!-- Hotspot extras -->
+    <string name="tethering_allow_vpn_upstreams_title">Permitir que clientes usem VPNs</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Permitir que os clientes do ponto de acessso utilizem este dispositivo para se conectar a VPN</string>
+    <!--  screen, setting option name to change wifi timeout -->
+    <string name="wifi_timeout">Desligar Wi-Fi automaticamente</string>
+    <!--  screen, setting option summary to change wifi timeout -->
+    <string name="wifi_timeout_summary">Desligue o Wi-Fi automaticamente após o tempo definido.</string>
+    <string name="wifi_timeout_summary1">O Wi-Fi será desativado após <xliff:g id="timeout_description">%1$s</xliff:g> se nenhuma rede estiver conectada</string>
+    <string name="wifi_timeout_summary2">Desativado</string>
+    <!-- Connected devices screen, setting option name to change Bluetooth timeout -->
+    <string name="bluetooth_timeout">Tempo limite do Bluetooth</string>
+    <!-- Connected devices screen, setting option summary to change Bluetooth timeout -->
+    <string name="bluetooth_timeout_summary">O Bluetooth será desativado após <xliff:g id="timeout_description">%1$s</xliff:g> se nenhum dispositivo estiver conectado</string>
+    <string name="bluetooth_timeout_summary2">Não desativar o Bluetooth automaticamente</string>
+    <!-- High touch sensitivity -->
+    <string name="high_touch_sensitivity_title">Alta sensibilidade ao toque</string>
+    <string name="high_touch_sensitivity_summary">Aumenta a sensitividade da tela para poder ser usada enquanto estiver usando luvas</string>
+    <!-- Touchscreen hovering -->
+    <string name="touchscreen_hovering_title">Flutuar o dedo na tela</string>
+    <string name="touchscreen_hovering_summary">Permite que você flutue o dedo na tela como um mouse em navegadores web, desktops remotos, etc</string>
+    <!-- High touch polling rate -->
+    <string name="high_touch_polling_rate_title">Aumentar taxa de resposta ao toque</string>
+    <string name="high_touch_polling_rate_summary">Aumenta a taxa de resposta ao tocar na tela</string>
+    <!-- LiveDisplay -->
+    <string name="live_display_summary">Otimiza sua tela com base na hora do dia e condições do ambiente para melhorar a legibilidade e reduzir o cansaço visual</string>
+    <string name="live_display_mode">Modo da tela</string>
+    <string name="live_display_color_temperature_title">Temperatura da cor</string>
+    <string name="live_display_color_temperature_summary">Dia: <xliff:g id="day_temperature">%1$d</xliff:g>K Noite: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
+    <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d </xliff:g> K</string>
+    <string name="live_display_day">Dia</string>
+    <string name="live_display_night">Noite</string>
+    <string name="live_display_outdoor_mode_title">Modo externo automático</string>
+    <string name="live_display_outdoor_mode_summary">Aumenta o brilho e a saturação automaticamente sob luz solar intensa</string>
+    <string name="live_display_anti_flicker_title">Modo anti cintilação</string>
+    <string name="live_display_anti_flicker_summary">Reduzir a fadiga ocular em condições de pouca luz. Isso pode degradar a precisão das cores e afetar a forma como certos elementos da tela são exibidos.</string>
+    <string name="live_display_low_power_title">Reduzir o consumo de energia</string>
+    <string name="live_display_low_power_summary">Ajustar a tela para consumir menos energia sem afetar a qualidade da imagem</string>
+    <string name="live_display_enhance_color_title">Realçar cores</string>
+    <string name="live_display_enhance_color_summary">Melhorar a vivacidade das cores de tons de pele, cenário e outras imagens</string>
+    <string name="live_display_color_profile_title">Perfil de cor</string>
+    <string name="live_display_color_profile_standard_title">Padrão</string>
+    <string name="live_display_color_profile_standard_summary">Cores precisas e brancos brilhantes</string>
+    <string name="live_display_color_profile_natural_title">Natural</string>
+    <string name="live_display_color_profile_natural_summary">Cores e tons de pele realistas</string>
+    <string name="live_display_color_profile_dynamic_title">Dinâmico</string>
+    <string name="live_display_color_profile_dynamic_summary">Cores melhoradas e brancos brilhantes</string>
+    <string name="live_display_color_profile_cinema_title">Cinema</string>
+    <string name="live_display_color_profile_cinema_summary">Cores perfeitas para reprodução de vídeos</string>
+    <string name="live_display_color_profile_astronomy_title">Astronomia</string>
+    <string name="live_display_color_profile_astronomy_summary">Vermelho profundo para preservar a visão durante a noite</string>
+    <string name="live_display_color_profile_photography_title">Fotografia</string>
+    <string name="live_display_color_profile_photography_summary">Cores perfeitas para exibição de fotos</string>
+    <string name="live_display_color_profile_basic_title">Básico</string>
+    <string name="live_display_color_profile_basic_summary">Usar a tela sem calibração</string>
+    <string name="live_display_color_profile_adaptive_title">Adaptativo</string>
+    <string name="live_display_color_profile_adaptive_summary">As cores se adaptam às condições do ambiente</string>
+    <string name="live_display_color_profile_reading_title">Leitura</string>
+    <string name="live_display_color_profile_reading_summary">Cores mais quentes para reduzir o cansaço visual</string>
+    <string name="live_display_color_profile_srgb_title">sRGB</string>
+    <string name="live_display_color_p

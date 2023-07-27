@@ -21,10 +21,10 @@
     android:title="@string/about_settings"
     settings:keywords="@string/keywords_android_version">
 
-    <!-- Evolution X logo -->
+    <!-- Sigma logo -->
     <com.android.settingslib.widget.LayoutPreference
-        android:key="evolution_logo"
-        android:layout="@layout/evolution_logo"
+        android:key="sigma_logo"
+        android:layout="@layout/sigma_logo"
         android:clickable="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.EvolutionXLogoPreferenceController"/>
 
@@ -37,10 +37,10 @@
         settings:searchable="false"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionDetailPreferenceController"/>
 
-    <!-- Evolution X version -->
+    <!-- Sigma version -->
     <Preference
-        android:key="evolution_x_version"
-        android:title="@string/evolution_x_version"
+        android:key="sigma_version"
+        android:title="@string/sigma_version"
         android:summary="@string/summary_placeholder"
         settings:enableCopying="true"
         settings:searchable="false"
