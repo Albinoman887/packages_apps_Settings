@@ -5,7 +5,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- The Evolver -->
-    <string name="evolver_dashboard_title">The Evolver</string>
+    <string name="sigma_dashboard_title">Sigma Tools</string>
     <string name="evolver_dashboard_summary">Καλώς ήλθατε στο Eve of Evolution</string>
     <!-- Hardware info -->
     <string name="platform_revision">Πλατφόρμα</string>

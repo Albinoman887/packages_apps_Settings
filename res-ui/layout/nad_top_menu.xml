@@ -60,7 +60,7 @@
                 android:layout_weight="1"
                 android:ellipsize="marquee"
                 android:singleLine="true"
-                android:text="@string/evolver_dashboard_title"
+                android:text="@string/sigma_dashboard_title"
                 android:textAppearance="?android:attr/textAppearanceListItem"
                 android:textColor="?android:attr/textColorPrimary"
                 android:textDirection="locale" />
@@ -71,7 +71,7 @@
                 android:layout_weight="1"
                 android:ellipsize="marquee"
                 android:singleLine="true"
-                android:text="@string/evolver_dashboard_summary"
+                android:text="@string/sigma_dashboard_summary"
                 style="@style/PreferenceSummaryTextStyle"
                 android:textColor="?android:attr/textColorPrimary" />
         </LinearLayout>
